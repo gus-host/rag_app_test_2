@@ -1,0 +1,10 @@
+datasets 
+pandas 
+pymongo 
+sentence_transformers
+accelerate
+google-auth 
+google-auth-oauthlib 
+google-auth-httplib2
+torch
+transformers
