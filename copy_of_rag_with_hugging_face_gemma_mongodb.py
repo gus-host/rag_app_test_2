@@ -27,6 +27,10 @@ from sentence_transformers import SentenceTransformer
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+import streamlit as st
+
+from streamlit_option_menu import option_menu
+
 
 # https://huggingface.co/datasets/MongoDB/embedded_movies
 dataset = load_dataset("MongoDB/embedded_movies")
